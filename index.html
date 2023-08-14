@@ -1,10 +1,123 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Bootstrap JS and jQuery (needed for the navbar) -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
   <title>Your Startup</title>
+
+
 </head>
+
 <body>
-  <h1>Welcome to Our Startup's Website!</h1>
-  <p>This website is under construction. Stay tuned for more information!</p>
+  <div id="navbar-placeholder" class="sticky-top"></div>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="00231-3543902367.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="00232-484627762.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="00233-46316086.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="00498-2562715648.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="container-fluid py-5">
+      <div class="container text-center">
+        <h1 class="display-4 mb-3">Welcome to Alta Analytical</h1>
+        <p class="lead">At the forefront of biotech services, delivering unparalleled accuracy in dPCR solutions,
+          molecular assays, and bioanalysis. Pioneering the future of biopharmaceutical testing.</p>
+        <a href="services.html" class="btn btn-light btn-lg mt-4">Explore Our Services</a>
+      </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="container my-5">
+      <h2 class="mb-2">About Alta Analytical</h2>
+      <p>
+        Established in 2023, Alta Analytical is a result of collaboration among seasoned professionals from the
+        healthcare, biopharma, and pharma industries. Our team, comprised of leading scientists, quality assurance
+        experts, and industry professionals, is dedicated to consistently delivering top-tier testing and scientific
+        services to our esteemed clientele.
+      </p>
+    </div>
+
+    <!-- Why Choose Alta? Section -->
+    <div class="container my-5">
+      <h2 class="mb-2">Why Choose Us</h2>
+      <div class="row">
+        <!-- Innovative Therapeutics -->
+        <div class="col-md-4 mb-4">
+          <h3 class="h4 mb-3">Innovative Therapeutics</h3>
+          <p>Spearheading the development and release of groundbreaking therapeutics for clinical applications.</p>
+        </div>
+
+        <!-- Future-Ready Approach -->
+        <div class="col-md-4 mb-4">
+          <h3 class="h4 mb-3">Future-Ready Approach</h3>
+          <p>Employing advanced methodologies, strategic designs, and the latest regulatory standards to craft personalized
+            molecular testing and bioassays.</p>
+        </div>
+
+        <!-- End-to-End Expertise -->
+        <div class="col-md-4 mb-4">
+          <h3 class="h4 mb-3">End-to-End Expertise</h3>
+          <p>From conceptualizing analytical methods to hands-on clinical trial testing, we've got you covered.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vision & Mission Section -->
+    <div class="container my-5">
+      <h2 class="mb-2 mt-4">Our Vision</h2>
+      <p>
+        At Alta Analytical, we are committed to employing the most current technology, utilizing systematic experimental
+        strategies, and adhering to the latest regulatory standards. Our aim is to provide comprehensive molecular
+        testing and bioassays for our partners.
+      </p>
+
+      <h2 class="mb-2 mt-4">Our Mission</h2>
+      <p>
+        Our primary objective is to support the discovery and introduction of effective therapeutics for clinical
+        applications through our specialized analytical services.
+      </p>
+    </div>
+  </div>
+
+  <div id="footer-placeholder"></div>
+  <script src="end.js"></script>
 </body>
+
 </html>
