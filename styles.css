@@ -21,7 +21,6 @@ h1,
   background-color: var(--primary-color) !important;
   border-color: var(--primary-color) !important;
   color: #ffffff;
-  
 }
 
 h2,
@@ -31,13 +30,15 @@ h2,
 
 a,
 .text-primary {
-  color: var(--primary-color) !important;;
+  color: var(--primary-color) !important;
+  ;
 }
 
 h5,
 .card-title {
   color: var(--primary-color);
 }
+
 h6,
 .card-subtitle {
   color: var(--secondary-color);
@@ -49,11 +50,16 @@ p,
 }
 
 .hero-bg-about {
-  background-size: cover;       /* Cover the entire viewport */
-  background-position: center;  /* Center the image */
-  background-repeat: no-repeat; /* Don't repeat the image */
-  height: 25vh;                 /* Set a height, e.g., 80% of the viewport height */
-  color: #fff;                  /* Set text color to white for better visibility */
+  background-size: cover;
+  /* Cover the entire viewport */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Don't repeat the image */
+  height: 25vh;
+  /* Set a height, e.g., 80% of the viewport height */
+  color: #fff;
+  /* Set text color to white for better visibility */
   align-items: center;
 }
 
@@ -75,7 +81,8 @@ p,
 }
 
 .person-img {
-  max-height: 150px; max-width: 150px; 
+  max-height: 150px;
+  max-width: 150px;
 }
 
 .object-cover {
@@ -85,21 +92,28 @@ p,
 
 @media (min-width: 992px) {
   .container {
-    max-width: 1000px;  /* Replace with your desired maximum width */
+    max-width: 1000px;
+    /* Replace with your desired maximum width */
   }
 }
-@media (max-width: 992px) { /* adjust this value to match the Bootstrap breakpoint you're using */
+
+@media (max-width: 992px) {
+
+  /* adjust this value to match the Bootstrap breakpoint you're using */
   .navbar-collapse {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
-    width: 75%; /* adjust this value to set the width of the overlay */
-    max-width: 300px; /* adjust this value to set a max width for the overlay */
+    width: 75%;
+    /* adjust this value to set the width of the overlay */
+    max-width: 300px;
+    /* adjust this value to set a max width for the overlay */
     padding: 1rem;
     background-color: white;
     overflow: auto;
-    z-index: 1000; /* add this line */
+    z-index: 1000;
+    /* add this line */
     transition: all 0.2s linear;
   }
 
@@ -110,5 +124,15 @@ p,
 
   .navbar-collapse.show {
     right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  .nav-link {
+    font-size: 2.5rem;
   }
 }
